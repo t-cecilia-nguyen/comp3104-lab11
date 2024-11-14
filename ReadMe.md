@@ -6,6 +6,7 @@ docker build --tag=hellodocker .
 docker image ls
 
 docker run -p 4000:80 hellodocker
+docker run -d -p 4000:80 hellodocker
 
 docker container stop CONTAINER_ID
 
